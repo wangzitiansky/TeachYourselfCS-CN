@@ -1,25 +1,6 @@
-# 自学计算机科学
+## 我的学习记录
 
-> 本文档是对[TeachYourselfCS](https://teachyourselfcs.com)内容的中文翻译，原作者为[Ozan Onay](https://twitter.com/oznova_)和[Myles Byrne](https://twitter.com/quackingduck)。如需了解翻译相关信息或帮助改进翻译，请参见[本文档结尾](#这份指引是谁翻译的)。
->
-> This document is a Chinese translation of [TeachYourselfCS](https://teachyourselfcs.com), which is written by [Ozan Onay](https://twitter.com/oznova_) and [Myles Byrne](https://twitter.com/quackingduck). For more information about this translation, please refer to [the end of this document](#这份指引是谁翻译的).
-
-如果你是一个自学成才的工程师，或者从编程培训班毕业，那么你很有必要学习计算机科学。幸运的是，不必为此花上数年光阴和不菲费用去攻读一个学位：仅仅依靠自己，你就可以获得世界一流水平的教育💸。
-
-互联网上，到处都有许多的学习资源，然而精华与糟粕并存。你所需要的，不是一个诸如“200+免费在线课程”的清单，而是以下问题的答案：
-
-*   你应当学习**哪些科目**，为什么？
-*   对于这些科目，**最好的书籍或者视频课程**是什么？
-
-在这份指引中，我们尝试对这些问题做出确定的回答。
-
-# 我的自学过程 
-
-[学习记录](./learn.md)
-
-## 简而言之
-
-大致按照列出的顺序，借助我们所建议的教材或者视频课程（但是最好二者兼用），学习如下的九门科目。目标是先花100到200个小时学习完每一个科目，然后在你职业生涯中，不时温习其中的精髓🚀。
+我会在这里记录一下自己的学习过程 :seedling:
 
 | 科目                                      | 为何要学？                                                                             | 最佳书籍                                                                                                                                      | 最佳视频                          |
 |-------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -33,30 +14,26 @@
 | **[编程语言与编译器](#编程语言与编译器)** | 若你懂得编程语言和编译器如何工作，你就能写出更好的代码，更轻松地学习新的编程语言。     | _[《Crafting Interpreters》](https://craftinginterpreters.com/)_                                                                                    | Alex Aiken’s course on Lagunita   |
 | **[分布式系统](#分布式系统)**             | 如今，_多数_ 系统都是分布式的。                                                        | _[《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/)_                                                              | MIT 6.824                          |
 
-## 还是太多？
-
-如果花几年时间自学 9 门科目让人望而却步，我们建议你只专注于两本书：_《深入理解计算机系统》_ 和 _《数据密集型应用系统设计》_。根据我们的经验，投入到这两本书的时间可以获得极高的回报率，特别适合从事网络应用开发的自学工程师。这两本书也可以作为上面表格中其他科目的纲领。
-
-## 为什么要学习计算机科学？
-
-软件工程师分为两种：一种充分理解了计算机科学，从而有能力应对充满挑战的创造性工作；另一种仅仅凭着对一些高级工具的熟悉而勉强应付。
-
-这两种人都自称软件工程师，都能在职业生涯早期挣到差不多的工资。然而，随着时间流逝，第一种工程师不断成长，所做的事情将会越来越有意义且更为高薪，不论是有价值的商业工作、突破性的开源项目、技术上的领导力或者高质量的个人贡献。
-
-> 全球短信系统每日收发约200亿条信息，而仅仅靠57名工程师，现在的 WhatsApp 每日收发420亿条。 
->
-> — Benedict Evans (@BenedictEvans) [2016年2月2日](https://twitter.com/BenedictEvans/status/694342874729545729)
-
-第一种工程师总是寻求深入学习计算机科学的方法，或是通过传统的方法学习，或是在职业生涯中永无止息地学习；第二种工程师
-通常浮于表面，只学习某些特定的工具和技术，而不研究其底层的基本原理，仅仅在技术潮流的风向改变时学习新的技能。
-
-如今，涌入计算机行业的人数激增，然而计算机专业的毕业生数量基本上未曾改变。第二种工程师的供过于求正在开始减少他们的工作机会，使他们无法涉足行业内更加有意义的工作。对你而言，不论正在努力成为第一种工程师，还是只想让自己的职业生涯更加安全，学习计算机科学是唯一可靠的途径。
-
-> 23333 然而他们... [pic.twitter.com/XVNYlXAHar](https://t.co/XVNYlXAHar)
->
-> — Jenna Bilotta (@jenna) [2017年3月4日](https://twitter.com/jenna/status/838161631662092289)
 
 ## 分科目指引
+
+### 分布式系统
+
+随着计算机在数量上的增加，计算机同样开始 _分散_。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。
+
+我们推荐的自学参考书是 Martin Kleppmann 的 _[《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/)_。与传统的教科书相比，它是一本为实践者设计的具有很高的可读性的书，并且保持了深度和严谨性。
+
+对于那些偏爱传统教材，或者希望可以从网上免费获取的人，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。
+
+对于喜欢视频课程的人，[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) 是一门很好的在线视频课程，由 Robert Morris 教授的研究生课程，在[这里](https://pdos.csail.mit.edu/6.824/schedule.html)可以看到课程安排。
+
+不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
+
+[![数据密集型应用系统设计](https://user-images.githubusercontent.com/20510068/82111034-94ff9600-9774-11ea-9d49-90b00f746659.png)](https://book.douban.com/subject/30329536/) 
+
+#### MIT 6.824 学习笔记
+
++ [分布式系统的概念](./src/6.824/分布式系统.md)
 
 ### 编程
 
@@ -211,19 +188,6 @@ _[《Readings in Database Systems》](https://book.douban.com/subject/2256069/)_
 >
 >— Ras Bodik 在他的编译器课程伊始
 
-### 分布式系统
-
-随着计算机在数量上的增加，计算机同样开始 _分散_。尽管商业公司过去愿意购买越来越大的大型机，现在的典型情况是，甚至很小的应用程序都同时在多台机器上运行。思考这样做的利弊权衡，即是分布式系统的研究所在，也是越来越重要的一项技能。
-
-我们推荐的自学参考书是 Martin Kleppmann 的 _[《数据密集型应用系统设计》](https://book.douban.com/subject/30329536/)_。与传统的教科书相比，它是一本为实践者设计的具有很高的可读性的书，并且保持了深度和严谨性。
-
-对于那些偏爱传统教材，或者希望可以从网上免费获取的人，我们推荐的教材是Maarten van Steen和Andrew Tanenbaum所著的 _《分布式系统原理与范型》（[中文第二版](https://book.douban.com/subject/3108801/)，[英文第三版](https://book.douban.com/subject/26979326/)）_。
-
-对于喜欢视频课程的人，[MIT的6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) 是一门很好的在线视频课程，由 Robert Morris 教授的研究生课程，在[这里](https://pdos.csail.mit.edu/6.824/schedule.html)可以看到课程安排。
-
-不管选择怎样的教材或者其他辅助资料，学习分布式系统必然要求阅读论文。[这里](http://dsrg.pdos.csail.mit.edu/papers/)有一个不错的论文清单，而且我们强烈建议你出席你当地的[Papers We Love](http://paperswelove.org/)（仅限美国）。
-
-[![数据密集型应用系统设计](https://user-images.githubusercontent.com/20510068/82111034-94ff9600-9774-11ea-9d49-90b00f746659.png)](https://book.douban.com/subject/30329536/) 
 
 ## 常见问题解答
 
